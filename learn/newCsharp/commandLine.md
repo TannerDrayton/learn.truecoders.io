@@ -61,10 +61,10 @@ We teach this topic because it is important to know that we can do everything th
   * Restore succeeded.
 
 ![Dotnet console](../images/commandLineEx1.png "Dotnet console")
-
+___
 **Dotnet build**
 ![Dotnet build](../images/commandLineEx2.png "Dotnet build")
-
+___
 Dotnet run
 
 ![Dotnet run](../images/commandLineEx3.png "Dotnet run")

@@ -1,8 +1,8 @@
 ---
-title: Variables
+title: Methods
 date: '2-2-2020'
 module: newCsharp
-order: 2
+order: 3
 ---
 
 ## Why

@@ -1,4 +1,9 @@
-# Intro to Git
+---
+title: Intro to Git
+date: '2-2-2020'
+module: git
+order: 0
+---
 
 ## Why
 

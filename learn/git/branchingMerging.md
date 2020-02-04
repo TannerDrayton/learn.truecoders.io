@@ -1,4 +1,9 @@
-# Branching and Merging
+---
+title: Branching and Merging
+date: '2-2-2020'
+module: git
+order: 1
+---
 
 ## Why
 

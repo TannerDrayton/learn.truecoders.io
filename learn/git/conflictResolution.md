@@ -1,4 +1,9 @@
-# Conflict Resolution
+---
+title: Conflict Resolution
+date: '2-2-2020'
+module: git
+order: 0
+---
 
 ## Why
 

@@ -1,6 +1,6 @@
 ---
 title: Operators
-date: '2-2-2020'
+date: '2-5-2020'
 module: newCsharp
 order: 4
 ---

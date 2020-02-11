@@ -1,7 +1,7 @@
 ---
 title: Branching and Merging
 date: '2-2-2020'
-module: git
+module: newGit
 order: 1
 ---
 
@@ -16,6 +16,8 @@ order: 1
 * <https://backlog.com/git-tutorial/using-branches/>
 
 * <https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell>
+
+---
 
 ## What
 
@@ -94,19 +96,23 @@ The merge command allows you to join two or more development histories together,
 
 So if we want to merge our feature branch into our Master branch:
 
-**Git checkout master** ←- we switch to our master branch
-**Git pull** ←- make sure we have the latest version of master
-**Git merge featureBranch** ←- merge featureBranch into Master branch
+**Git checkout master** <--- we switch to our master branch
+**Git pull** <--- make sure we have the latest version of master
+**Git merge featureBranch** <--- merge featureBranch into Master branch
 
 ## Git Documentation
 
 <https://git-scm.com/book/en/v2>
+
+---
 
 ## How
 
 **Let’s say you’ve been given the task of creating a new feature for an app.  Instead of making a bunch of commits to our master branch and seeing if the new feature works or not, we can create a new branch (or development history) and see if the feature works there.  If the feature doesn’t work, no harm no foul.  If it does, we can eventually merge that branch into the master branch.  Here we have avoided tainting our master branches timeline with mistakes.**
 
 **Show an example of switching between 2 different branches and how each has differences that can eventually be merged.**
+
+---
 
 ## Exercise
 

@@ -1,13 +1,15 @@
 ---
 title: Conflict Resolution
 date: '2-2-2020'
-module: git
-order: 0
+module: newGit
+order: 2
 ---
 
 ## Why
 
 We teach conflict resolution in git because sometimes merging won’t be so simple.  This is especially true when we start collaborating with others, whether in the community or in the workplace.  Knowing how to resolve merge conflicts and utilizing the full power of git will give you a great advantage in the workplace and will allow your workflow to achieve new heights.
+
+---
 
 ## What
 
@@ -58,6 +60,8 @@ BONUS: git log --graph --all --online --decorate
 
 * <https://backlog.com/git-tutorial/using-branches/git-switch-branches/>
 
+---
+
 ## How
 
 Usually, a merge conflict can arise when the master has been updated since you created your new branch (based off master).  Maybe someone edited the same lines you were intending to edit without your knowledge.  You don’t have to throw all of your work away!  We can simply resolve the conflict points and get your work into the master branch!
@@ -88,6 +92,8 @@ git log --graph --all --online --decorate
 * git show --color-words
 
 ![Conflict Example(4)](../images/Conflict4.png "Conflict Example(4)")
+
+---
 
 ## Exercise
 

@@ -1,7 +1,7 @@
 ---
 title: Intro to Git
 date: '2-2-2020'
-module: git
+module: newGit
 order: 0
 ---
 
@@ -10,6 +10,8 @@ order: 0
 We cover Git because it is a Distributed Version Control System.  Distributed means there is no central server required, so work can be done “Offline” simultaneously with someone else also working offline.  In the past, with traditional Centralized Version Controls Systems, two people editing a file was very difficult and sometimes whomever saved the file last would overwrite someone else's work.
 
 [Git was created by Linus Torvalds in 2005 for development of the Linux kernel](https://www.linuxjournal.com/content/git-origin-story), with other kernel developers contributing to its initial development and is a free and open-source software.
+
+---
 
 ## What
 
@@ -26,9 +28,11 @@ Version Control Systems are usually represented with a tree data structure
 
 ![Git Tree](../images/GitTree.png "Git Tree")
 
+---
+
 ## Git
 
-  A **distributed version-control system (DVCS)** for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
+A **distributed version-control system (DVCS)** for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
 
 ## Git != GitHub
 
@@ -47,6 +51,8 @@ The **git commit** command captures a snapshot of the project's currently staged
 ![Git Commits](../images/CommitsDiagram.png "Git Commits")
 
 Each circle in the above diagram is a commit – a **snapshot** of the project.
+
+---
 
 ## Remote Repositories
 

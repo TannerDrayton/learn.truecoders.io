@@ -9,7 +9,9 @@ order: 2
 
 At the end of the 16th century, François Viète introduced the idea of representing known and unknown numbers by letters, nowadays called variables, and of computing with them as if they were numbers, in order to obtain the result by a simple replacement. In reference to programming, values being used in the program are able to be remembered more easily.
 
-Essentially, variables play an important role as they allow us as programmers to write flexible programs. Instead of entering data directly into a program, a programmer can use variables to represent the data. ... The opposite of a variable is a constant. **Constants** are values that never change.
+Essentially, variables play an important role as they allow us as programmers to write flexible programs. Instead of entering data directly into a program, a programmer can use variables to represent the data. ... The opposite of a variable is a constant. `Constants` are values that never change.
+
+---
 
 ## What
 
@@ -21,13 +23,13 @@ Variables consist of a data-type, a variable name and a value (initialized by pr
 datatype variableName; <---- Declaration
 ```
 
-Variables are always assigned with a data-type, meaning it holds the value of a specific type, such as string, bool, int and so on. C-sharp is **strongly-typed** meaning once a variable has a type, that type cannot change. C-sharp is also **statically-typed** meaning every variable must have a type.
+Variables are always assigned with a data-type, meaning it holds the value of a specific type, such as string, bool, int and so on. C-sharp is `strongly-typed` meaning once a variable has a type, that type cannot change. C-sharp is also `statically-typed` meaning every variable must have a type.
 
 ***C# Variable Naming Conventions:***
 
 You can’t just choose any sequence of characters as a variable name. Instead, C# has some rules regarding variable names that are to be followed:
 
-* camelCase for local variables, such as cost, firstName, dateOfBirth, and petName.
+* `camelCase` for local variables, such as cost, firstName, dateOfBirth, and petName.
 * A meaningful or descriptive name that is neither too long nor too short to identify the information stored in a variable just by looking at it.
 * Can contain the letters a–z and A–Z, numbers 0–9, and the underscore (_) character..other symbols are not allowed.
 * Cannot have spaces and cannot start with a number.
@@ -39,17 +41,19 @@ You can’t just choose any sequence of characters as a variable name. Instead, 
 * class, while, if, protected(key words)
 * 1order, 1name (starts with a number)
 
+---
+
 ## How
 
 Create a variable by declaring its type and then giving it a name using the syntax below.
 
-When you **declare** a variable, the computer knows that it has to reserve a place in its memory for this variable.
+When you `declare` a variable, the computer knows that it has to reserve a place in its memory for this variable.
 
 ```csharp
 datatype variableName; //declaration syntax
 ```
 
-To **initialize** a variable, you need to assign it a value. This is done by naming the variable followed by an equal sign (=) and then the value.
+To `initialize` a variable, you need to assign it a value. This is done by naming the variable followed by an equal sign (=) and then the value.
 
 ```csharp
 variableName = variableValue; // initialization syntax
@@ -71,6 +75,8 @@ Here, datatype must be one of the valid data types, and variableName is the iden
 2. int age;
 3. int weight;
 4. bool isMarried;
+
+---
 
 ## Exercise
 

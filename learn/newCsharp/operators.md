@@ -11,6 +11,8 @@ You’ve been working with operations since you first learned how to add. In mat
 
 Not all operators require two operands. Those that do are called **binary operators**. These are probably the ones you are most familiar with. We’ll also see some that only need one operand. These are called **unary operators**. C# also has an operator that requires three operands. It’s a **ternary operator**.
 
+---
+
 ## What/How
 
 **Arithmetic Operator:**
@@ -157,6 +159,8 @@ Console.Writeline(positiveMessage);
 
 //output: You are positive!
 ```
+
+---
 
 ## Exercise
 

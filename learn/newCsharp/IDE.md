@@ -13,6 +13,8 @@ Margaret Hamilton stands next to a stack of Apollo Guidance Computer source code
 
 The very first contract NASA issued for the Apollo program (in August 1961) was with the Massachusetts Institute of Technology to develop the guidance and navigation system for the Apollo spacecraft. Hamilton, a computer programmer, would wind up leading the Software Engineering Division of the MIT Instrumentation Laboratory (now Draper Labs). Computer science, as we now know it, was just coming into existence at the time. Hamilton led the team that developed the building blocks of software engineering – a term that she coined herself. Her systems approach to the Apollo software development and insistence on rigorous testing was critical to the success of Apollo. As she noted, “There was no second chan-ce. We all knew that.”
 
+---
+
 ## What
 
 * Signed-in users will see the new start window, which shows a list of recent projects, and buttons to open an existing project or create a new one:
@@ -31,6 +33,8 @@ The following image shows Visual Studio for Mac with an application loaded:
 
 This is where files for the source code, resources, user interface, and dependencies are organized into platform-specific Projects.
 
+---
+
 ***Dependencies / Packages***
 
 * All external dependencies used in your app are stored in the Dependencies or Packages folder, depending on whether you are in a .Net Core or Xamarin.iOS/Xamarin.Android project. These are usually provided in the form of a NuGet.
@@ -43,11 +47,15 @@ This is where files for the source code, resources, user interface, and dependen
 
 ![Dependencies](../images/ideEx5.png "Dependencies")
 
+---
+
 **Using the Debugger:**
 
 * To start debugging any application, always ensure that the configuration is set to Debug. The debug configuration provides a helpful set of tools to support debugging, such as breakpoints, using data visualizers, and viewing the call stack:
 
 ![Debugger](../images/ideEx6.png "Debugger")
+
+---
 
 **Setting a Breakpoint:**
 
@@ -71,11 +79,15 @@ To open it, click on the ‘Debug’ menu item in Visual Studio, point to ‘Win
 
 * Watch windows can display several variables at a time while debugging. The QuickWatch dialog displays a single variable at a time, and must be closed before debugging can continue.
 
+---
+
 **Output to Console Window or Application Output Window:**
 
 By default our project outputs to our console, either command prompt or Terminal for mac, however we can change this to actually output to our own IDE. In VS 2019 we have the Application Output Window. To change this setting, Right click the project in the Solution window, select Options to open the Project Options dialog. Then go to Run - Configurations - Default and uncheck the 'Run on external console' check box.
 
 ![Output](../images/ideEx12.png "Output")
+
+---
 
 **Call Stack:**
 
@@ -105,6 +117,8 @@ In Visual Studio Enterprise (only), you can view code maps for the call stack wh
 
 * In the Call Stack window, open the shortcut menu. Choose Show Call Stack on Code Map (Ctrl + Shift + `).
 
+---
+
 ***Breaking on Exceptions***
 
 By default, when run in debug mode, the debugger will break on all uncaught exceptions.
@@ -113,19 +127,27 @@ In the Exception Settings window (Debug > Windows > Exception Settings), expand 
 
 ![Breaking on Exceptions](../images/ideEx14.png "Breaking on Exceptions")
 
+---
+
 ***Control Click to Navigate***
 
 ![Control Click](../images/ideEx15.gif "Control Click")
 
 The Go To Definition feature navigates to the source of a type or member, and opens the result in a new tab. If you are a keyboard user, place your text cursor somewhere inside the symbol name and press F12. If you are a mouse user, either select Go To Definition from the right-click menu or use the Ctrl-click functionality described in the following section.
 
+---
+
 ***Ctrl-click Go To Definition***
 
 Ctrl+click is a shortcut for mouse users to quickly access Go To Definition. Symbols become clickable when you press Ctrl and hover over the type or member. To quickly navigate to the definition of a symbol, press the Ctrl key and then click on it. It's that easy!
 
+---
+
 **Intellisense:**
 
 C# IntelliSense is available when coding in the editor, and while debugging in the Immediate mode command window.
+
+---
 
 ***Completion Lists***
 
@@ -142,6 +164,8 @@ The IntelliSense completion lists in C# contain tokens from List Members, Comple
 * Extension methods
 
 The completion list in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see Filtered completion lists.
+
+---
 
 ***Filtered Completion Lists***
 
@@ -164,6 +188,8 @@ IntelliSense removes unnecessary members from the completion list by using filte
 * Events: When you type the keyword event, the completion list only contains delegate types.
 
 * Parameter help automatically sorts to the first method overload that matches the parameters as you enter them. If multiple method overloads are available, you can use the up and down arrows to navigate to the next possible overload in the list.
+
+---
 
 **Exercise with Quiz:**
 

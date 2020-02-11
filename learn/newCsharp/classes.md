@@ -11,6 +11,8 @@ Before classes and Object-Oriented Programming was a thing, programmers used fun
 
 Classes are the cornerstone of Object-Oriented Programming. They help you take all the properties and behaviors of an object in your program, and combine them into a single object, then re-use that object wherever you need it in your program. Using classes in your code enables you to implement ***Encapsulation, Abstraction, Inheritance, and Polymorphism.*** These principles define OOP and they revolve around classes, which is why we teach them now.
 
+---
+
 ## What
 
 A class can be thought of as a blueprint or a cookie cutter. A class describes an object, but it is **not** that object. An object is defined as a singular instance of a class or type. It is a block of memory that has been allocated on the heap, according to the blueprint. Similar to real-life if you have a blueprint of a house, it is not an actual house, the blueprint only tells you how to build a house. Moreover, if you create 2 houses from the same blueprint, they may seem the same but they are independent of each other.  In the real world objects have describing factors such as color, speed, or weight; to name a few. In code, we create classes in order to group these things together. Classes have members sort of like how methods have variables; however, classes are not only limited to variables.
@@ -36,6 +38,8 @@ The way we access the methods and properties of a class is with the ( . ) **Dot*
 3. Scope or “curly brackets” - **REQUIRED** (Fields/Properties - **OPTIONAL** && Methods - **OPTIONAL**)
 
 4. Modifier Keywords - **OPTIONAL**
+
+---
 
 ## How
 
@@ -89,6 +93,8 @@ Time to look at constructors: A **constructor** is a special method that gets in
 ![Classes](../images/classesEx6.png "Classes")
 
 Pro tip: the shortcut to creating a constructor is: ctor + tab, tab. This is called a code snippit. There are many snippits to choose from like for, fore, if, while, ect.
+
+---
 
 ## Exercise
 

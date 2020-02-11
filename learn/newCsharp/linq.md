@@ -17,6 +17,8 @@ order: 19
 
 * LINQ supports query expression, Implicitly typed variables, Object and collection initializers, Anonymous types, Extension Methods, and Lambda expressions.
 
+---
+
 ## What
 
 ***L.I.N.Q.- Language Integrated Query***
@@ -27,7 +29,9 @@ LINQ is used for querying data. Notice that I used the generic term “data” a
 
 Aforementioned above, System.Linq extends the IEnumerable interface. That tells us that we can utilize Linq to query anything that conforms to that interface in C# such as arrays and lists.
 
-Sometimes when we are working with a query expression, we require a variable that can store the result of the sub-expression in order to reuse it in the upcoming clause. This type of facility is provided by the Let keyword. The let keyword allows you to create a range variable and initialized with the result of the query expression and then you are allowed to use that variable with the upcoming clause in the same query. When you initialize a range variable with one value after that you are not allowed to store another value in the range variable.
+Sometimes when we are working with a query expression, we require a variable that can store the result of the sub-expression in order to reuse it in the upcoming clause. This type of facility is provided by the `Let` keyword. The `let` keyword allows you to create a range variable and initialized with the result of the query expression and then you are allowed to use that variable with the upcoming clause in the same query. When you initialize a range variable with one value after that you are not allowed to store another value in the range variable.
+
+---
 
 ## How
 
@@ -36,6 +40,8 @@ Sometimes when we are working with a query expression, we require a variable tha
 ![LINQ](../images/linqEx1.png "LINQ")
 
 Query syntax has a very distinctive syntactical style. Due to its unique format, query syntax is very memorable and somewhat iconic as it's often what people envision when thinking of LINQ. You might find similarities with this and SQL.
+
+---
 
 ***Using System.Linq;***
 
@@ -94,6 +100,8 @@ The Lambda Expressions can be of two types:
 2. Statement Lambda: Consists of the input and a set of statements to be executed. ```input => {statements};```
 
 Example to find number divisible by 3: ```numbers.Where(x => (x % 3) == 0)```
+
+---
 
 ## Exercise
 

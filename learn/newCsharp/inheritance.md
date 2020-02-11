@@ -9,6 +9,8 @@ order: 15
 
 Inheritance, together with encapsulation, abstraction, and polymorphism, is one of the four pillars or primary characteristics of object-oriented programming. Inheritance enables you to create new classes that reuse, extend, and modify the behavior that is defined in other classes.
 
+---
+
 ## What
 
 The class whose members are inherited from is called the base class, and the class that inherits those members is called the derived class. This is done by using a colon “:” after the derived class and then typing the name of the base class. When you define a class to derive from another class, the derived class implicitly gains all the members of the base class, except for its constructors and finalizers. The derived class can thereby reuse the code in the base class without having to re-implement it. In the derived class, you can add more members. In this manner, the derived class extends the functionality of the base class. Examples in the “How”.
@@ -17,14 +19,14 @@ Inheritance allows us to define a class based on another class. This makes creat
 
 ![Inheritance](../images/inheritanceEx0.png "Inheritance")
 
-The class whose properties are inherited by another class is called the Base class.
+The class whose properties are inherited by another class is called the `Base` class.
 
-The class which inherits the properties is called the Derived class.
+The class which inherits the properties is called the `Derived` class.
 
 For example, base class **Animal** can be used to derive **Cat** and **Dog** classes.
 The derived class inherits all the features from the base class, and can have its own additional features.
 
-***Inheritance allows us to define a class based on another class.***
+***`Inheritance allows us to define a class based on another class.`***
 
 ```csharp
 class Animal
@@ -55,6 +57,8 @@ However, you can use interfaces to implement multiple inheritance. To put it ano
 
 Moreover, the ***derived class cannot inherit the constructor of the base class*** because constructors are not the members of the class
 
+---
+
 ## How
 
 * First we create a base class called "BankAccount"
@@ -74,6 +78,8 @@ Moreover, the ***derived class cannot inherit the constructor of the base class*
 ![Add members](../images/inheritanceEx4.png "Add members")
 
 ![Assign Values](../images/inheritanceEx5.png "Assign Values")
+
+---
 
 ## Exercise
 

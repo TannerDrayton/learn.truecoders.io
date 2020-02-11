@@ -36,7 +36,6 @@ else
 
 In C# the else-if statement is one of the most commonly used control flow statements. With if statements, you can tell the computer to make a choice by evaluating a Boolean expression (true or false) called condition. It allows you to tell the computer whether to run the code inside the block based on if the condition or set of conditions equates to true. Each Boolean expression can be independent of the others and can include any of the comparison and logical operators. An if statement can be extended by any number of else-if clauses to test more conditions. Each additional condition will only be tested if all previous conditions are false. Finally, you can use the else statement at the end to execute some code if none of the above conditions are true.
 
-
 ```csharp
 // Check for a condition, if the condition is false, keep moving
 if (condition)

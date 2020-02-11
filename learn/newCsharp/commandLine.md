@@ -11,6 +11,8 @@ The .NET Core **command-line interface (CLI)** is a new cross-platform toolchain
 
 We teach this topic because it is important to know that we can do everything that our IDE (Visual Studio) does on the command line.  So if we are experiencing issues with Visual Studio, we can always fall back on our command line skills.
 
+---
+
 ## What
 
 **Solution file (.sln)** - a solution is a container used by Visual Studio to organize one or more related projects.  When you open a solution in Visual Studio, it automatically loads all the projects the solution contains
@@ -47,6 +49,8 @@ We teach this topic because it is important to know that we can do everything th
 
 * **dotnet clean:** The dotnet clean command cleans the output of the previous build. It's implemented as an MSBuild target, so the project is evaluated when the command is run. Only the outputs created during the build are cleaned. Both intermediate (obj) and final output (bin) folders are cleaned.
 
+---
+
 ## How
 
 * michaeldoyle$ mkdir dotNetConsole
@@ -61,13 +65,19 @@ We teach this topic because it is important to know that we can do everything th
   * Restore succeeded.
 
 ![Dotnet console](../images/commandLineEx1.png "Dotnet console")
-___
+
+---
+
 **Dotnet build**
 ![Dotnet build](../images/commandLineEx2.png "Dotnet build")
-___
+
+---
+
 Dotnet run
 
 ![Dotnet run](../images/commandLineEx3.png "Dotnet run")
+
+---
 
 ## Exercise
 

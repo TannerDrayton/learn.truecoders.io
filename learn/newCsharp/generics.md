@@ -44,6 +44,8 @@ One of the more popular problems with ArrayLists is that can store multiple data
 
 ***Which is why we use Generics, which are strongly typed.***
 
+---
+
 ## What
 
 ***Generic Type Paramaters***
@@ -150,6 +152,8 @@ Differences between a sorted list and Dictionary:
 
 <https://stackoverflow.com/questions/935621/whats-the-difference-between-sortedlist-and-sorteddictionary>
 
+---
+
 ## How
 
 Our Swap method will work only for integer parameters. If we want to use it for other types, for example, doubles or strings, we have to overload it for all the types we want to use it with. Besides a lot of code repetition, it becomes harder to manage the code because changes in one method mean changes to all of the overloaded methods.
@@ -168,6 +172,8 @@ public static void Swap<T>(ref T a, ref T b)
 In the code above, T is the name of our generic type. We can name it anything we want, but T is a commonly used name. Our Swap method now takes two parameters of type T. We also use the T type for our temp variable that is used to swap the values.
 
 Note the brackets in the syntax `<T>`, which are used to define a generic type.
+
+---
 
 ## Exercise
 

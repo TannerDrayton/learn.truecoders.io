@@ -17,6 +17,8 @@ Many credit Kent Beck for inventing TDD, but Kent himself says he merely redisco
 
 <https://jrebel.com/rebellabs/if-and-when-you-should-use-test-driven-development/>
 
+---
+
 ## What
 
 ***Test Driven Development*** - Is a process that relies on the repetition of a very short development cycle:
@@ -35,7 +37,9 @@ Overall, ***TDD is a process in which we write our tests first and those tests a
 
 * You accumulate tests over time that can be quickly run without the time consuming manual tests
 
-**Unit Testing:**
+---
+
+***Unit Testing***
 
 Consists of tiny testable parts of a program independently tested for expected functionality.  Unit testing plays an important role in Test Driven Development. The purpose is to validate that each unit of the software performs as designed. ***A unit is the smallest testable part of any software.***
 
@@ -46,6 +50,8 @@ Consists of tiny testable parts of a program independently tested for expected f
 2. Act: This is where we actually call the method we want to test. Simply put, we need to call what we want to test
 
 3. Assert: Check against a constant (check against what is expected). Verify that the code we wrote behaves as expected
+
+---
 
 **Red, Green, Refactor Process:**
 
@@ -63,6 +69,8 @@ xUnit - A unit testing tool for the .NET Framework that we will be using in this
 
 [Adding a xUnit Project](https://docs.google.com/document/d/16oEgosdUn0x-yrXlTDcmH3_ipTmjxDc0HSyiWA6gNaM/edit?usp=sharing)
 
+---
+
 **xUnit syntax:**
 
 `[Fact]`
@@ -77,6 +85,8 @@ In contrast, the `[Theory]` attribute denotes a parameterized test that is true 
 
 ![Unit Testing](../images/unitTestingEx0.png "Unit Testing")
 
+---
+
 ## How
 
 ***Let’s say I want to write a function that calculates how much an employee makes per hour given their annual salary amount.***
@@ -86,6 +96,8 @@ First, I would write my unit test - which would fail -RED-  because I need to wr
 Next, I would define the function, I can name this function HourlyPay, and keep writing the code for that function until my test passes -GREEN-
 
 Finally, I could refactor my code for refinement
+
+---
 
 ## Exercise
 

@@ -27,6 +27,8 @@ In some other programming languages subroutines can be named as **functions** or
 * Avoid duplicated code
 * Create reusable code
 
+---
+
 ## What
 
 **Fundamentals:**
@@ -49,6 +51,8 @@ Here’s a description of the syntax required for creating a method:
 
 * Define the method.
 * Call the method.
+
+---
 
 ## How
 
@@ -96,6 +100,8 @@ Below, we have a method called SendEmail. The return type is bool, in this case,
 **Calling Methods:**
 
 ![Method Calling](../images/methodsEx6.png "Method Calling")
+
+---
 
 ## Exercises
 

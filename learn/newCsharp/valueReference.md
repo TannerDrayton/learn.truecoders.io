@@ -9,6 +9,8 @@ order: 1
 
 We teach Value and Reference types because C# is a strongly and statically typed object oriented programming language.  **Strongly** - meaning that once a variable’s type is declared, it cannot change, although you can change its value; **Statically** - meaning that every variable must have a type at compile time.  So you can see that types and knowing how they function are pretty important.  In this lesson we’ll cover what the types are, how they function, and how we will utilize them as we begin programming in C#
 
+---
+
 ## What
 
 **Value Types:**
@@ -20,27 +22,28 @@ Stored in memory in a location called the stack.
 4. decimal
 5. enum
 
-...more listed on the types page ---> <https://learn.truecoders.io/csharp/types/>
-
 **Value types store the actual data rather than a reference to it.**
 
-**Value Types are not automatically nullable.**  While reference types automatically support being set to null, value types require an actual value. When you need to assign null to a value type, you employ the "nullable" of that type. A value type, followed by a ? is shorthand syntax for nullable:
+***Value Types are not automatically nullable.***  While reference types automatically support being set to null, value types require an actual value. When you need to assign null to a value type, you employ the "nullable" of that type. A value type, followed by a ? is shorthand syntax for nullable:
 
 example) int? myInteger = null;
 
 **Signed vs Unsigned:**
-**Signed:** A signed integer is one with either a plus or minus sign  
+
+* **Signed:** A signed integer is one with either a plus or minus sign  
 in front. That is it can be either positive or negative.
 
-**Unsigned:** integer is assumed to be positive.
+* **Unsigned:** integer is assumed to be positive.
 
-Reference Types:
+**Reference Types:**
 
 * String
 * Array
 * **These are automatically nullable**
 
 A **reference type** is set by storing the actual data (object) in memory and storing a reference to the object within the variable. Reference types in C# automatically support being set to null.
+
+---
 
 ## Reference vs Value Types
 
@@ -54,7 +57,7 @@ A **reference type** is set by storing the actual data (object) in memory and st
 
 The **Stack** is used for static memory allocation.  This is where Value Types are stored.
 
-It utilizes a LAST IN, FIRST OUT procedure.
+It utilizes a **LAST IN, FIRST OUT** procedure.
 
 * So the last item that enters the stack is the first item that leaves.
 
@@ -65,6 +68,8 @@ It utilizes a LAST IN, FIRST OUT procedure.
   * The heap is used for custom obects that may require additional memory during the runtime of the program.
 
 The **Queue** is a **FIRST IN, FIRST OUT** collection of elements where the first element that goes into a queue is the first element that comes out.
+
+---
 
 ## How
 
@@ -107,6 +112,8 @@ Console.WriteLine(p2.X); //prints 9
 ```
 
 Notice in the above code that p1 and p2 are two references that point to the same object
+
+---
 
 ## Exercise
 

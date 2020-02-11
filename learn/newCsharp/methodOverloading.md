@@ -7,18 +7,20 @@ order: 8
 
 ## Why
 
-Did you know that two methods can share a name? They can’t however, have the same signature. A **signature** is essentially methods having the same method name, and the same return type, and the same order of parameters that get passed in.
+Did you know that two methods can share a name? They can’t however, have the same signature. A `signature` is essentially methods having the same method name, and the same return type, and the same order of parameters that get passed in.
 
-**Method overloading** gained popularity out of pure necessity. Instead of creating methods that are very closely related in terms of functionality and creating similar names, method overloading allows us to share the original name and make minor adjustments as needed.
+`Method overloading` gained popularity out of pure necessity. Instead of creating methods that are very closely related in terms of functionality and creating similar names, method overloading allows us to share the original name and make minor adjustments as needed.
 
 In short, Method Overloading allows us to use a method for different situations.
 
+---
+
 ## What
 
-Method overloading is when multiple methods have the same name, but different parameters.
+**Method overloading** is when multiple methods have the same name, but different parameters.
 
 * Recap:
-  * When a method is called, the arguments are the data you pass into the method's parameters.
+  * When a method is called, the **arguments** are the data you pass into the method's parameters.
 
   * **A parameter** is variable in the declaration of the function / method. The argument is the actual value of this variable that gets passed to function.
 
@@ -34,15 +36,17 @@ Method Overloading allows methods of the same name to happily co-exist in the sa
 
 The following declaration results in an error:
 
-* int PrintName(int a) { }
+* **int** PrintName(int a) { }
 
-* float PrintName(int b) { }
+* **float** PrintName(int b) { }
 
-* double PrintName(int c) { }
+* **double** PrintName(int c) { }
 
 It is useful to create overloaded methods when the tasks they perform are similar, yet subtly different.
 
 ![Method Overloading](../images/methodOverloadingEx0.png "Method Overloading")
+
+---
 
 ## How
 
@@ -53,10 +57,10 @@ void Print(int a)
 }
 ```
 
-The + operator is used to concatenate values. In this case, the value of a is joined to the text "Value: ".
+The `+`operator is used to concatenate values. In this case, the value of a is joined to the text "Value: ".
 
-This method accepts an integer argument only.
-Overloading it will make it available for other types, such as double:
+This `method` accepts an `integer` argument only.
+ Overloading it will make it available for other types, such as `double`:
 
 ```csharp
 void Print(double a)
@@ -74,6 +78,8 @@ Here we can see in Visual Studio, that when we write the Console.WriteLine() met
 Example of Method Overloading: Same Method, different parameters
 
 ![Method Overloading](../images/methodOverloadingEx2.png "Method Overloading")
+
+---
 
 ## Exercises
 

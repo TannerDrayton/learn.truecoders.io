@@ -9,6 +9,8 @@ order: 7
 
 In real life, we need to do some repetitive tasks, and doing the same task, again and again, can be hectic. There are situations where you have to write a statement or execute a set of logic multiple times or display a message with a slight variation in numbers. So, obviously doing this form of work manually will be time-consuming and extremely in-effective.
 
+---
+
 ## What
 
 There are **4 loops** that you mainly see: while, do-while, for, & foreach.
@@ -64,6 +66,8 @@ Pay attention to how our program never goes back to our initializer again.
 * A “**foreach**” loop executes a statement or a block of statements for each element in an instance of the type that implements the System.Collections.IEnumerable;
 In other words, A “**foreach**” loop generally is used to iterate through collections such as Arrays, Lists, or enums. Use a foreach loop if you need to execute some code on each element in a collection of elements.
 
+---
+
 ## How
 
 ![Foreach itteration](../images/iterationEx7.png "Foreach itteration")
@@ -75,6 +79,8 @@ In other words, A “**foreach**” loop generally is used to iterate through co
 ![For itteration](../images/iterationEx10.png "For itteration")
 
 ![For itteration](../images/iterationEx11.png "For itteration")
+
+---
 
 ## Exercise
 

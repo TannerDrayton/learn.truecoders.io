@@ -11,6 +11,8 @@ If we go all the way back to assembly then the only utilities we had were jumpTo
 
 Selection statements enable you to branch to different sections of code, depending on one or more specified conditions. The components when concerning selection statements are if, else, switch and case.
 
+---
+
 ## What
 
 An if statement identifies which statement to run based on the value of a Boolean expression. In the following example, the bool variable condition is set to true and then checked in the if statement. Since the condition is true, the output is: “The variable is set to true.”. If the bool had been set to false then the else portion would have executed.
@@ -32,10 +34,8 @@ else
 }
 ```
 
----
 In C# the else-if statement is one of the most commonly used control flow statements. With if statements, you can tell the computer to make a choice by evaluating a Boolean expression (true or false) called condition. It allows you to tell the computer whether to run the code inside the block based on if the condition or set of conditions equates to true. Each Boolean expression can be independent of the others and can include any of the comparison and logical operators. An if statement can be extended by any number of else-if clauses to test more conditions. Each additional condition will only be tested if all previous conditions are false. Finally, you can use the else statement at the end to execute some code if none of the above conditions are true.
 
----
 
 ```csharp
 // Check for a condition, if the condition is false, keep moving
@@ -61,7 +61,7 @@ A switch is a selection statement that chooses a single case section to execute 
 
 ![Switch](../images/selectionStatementsEx0.png "Switch")
 
-***Why do we use switch statements instead of if-else statements***
+***Why do we use switch statements instead of if-else statements?***
 
 We use a switch statement instead of else-if statements because the if-else statement only works for a small number of logical evaluations of a value. If you use multiple else-if statements for a larger number of possible conditions then, it takes more time to write and also becomes more difficult to read.
 
@@ -131,6 +131,8 @@ switch (day)
 * The value of the expression is compared with the values of each case.
 
 * If there is a match, the associated block of code is executed.
+
+---
 
 ## Exercise
 

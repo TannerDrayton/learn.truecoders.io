@@ -1,8 +1,8 @@
 ---
 title: IDE Parts - Visual Studio Community 2019
 date: '2-6-2020'
-module: newCsharp
-order: 9
+module: tools
+order: 7
 ---
 
 ## Why

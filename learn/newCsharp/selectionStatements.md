@@ -21,6 +21,8 @@ An if statement identifies which statement to run based on the value of a Boolea
 
 ## How
 
+***If-else Statements:***
+
 ```csharp
 bool condition = true;
 
@@ -56,6 +58,9 @@ else
 ```
 
 ---
+
+***Switch statements***
+
 A switch is a selection statement that chooses a single case section to execute based on if the value passed in matches the case conditional. The switch statement is a control statement different from the if statement because it evaluates a single expression against a list of possible cases. The break statement passes control out of the switch. You can omit a break statement if two cases lead to the same action.
 
 ![Switch](../images/selectionStatementsEx0.png "Switch")

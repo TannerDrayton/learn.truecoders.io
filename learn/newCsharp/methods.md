@@ -14,7 +14,7 @@ Methods have many advantages over writing code with functional programming ideal
 * Modifications to a method do not affect the calling program.
 * One method can accept many different inputs.
 
-**Subroutines in Programming:**
+***Subroutines in Programming***
 
 To solve certain, complex tasks - we apply a concept from ‘The Art of War,' “divide and conquer”. According to this principle, the problem we solve must be divided into smaller subproblems. Separately they are ***well defined and easily resolved*** compared to the whole problem at hand. By finding solutions for all the small problems we solve the complex one.
 
@@ -31,7 +31,7 @@ In some other programming languages subroutines can be named as **functions** or
 
 ## What
 
-**Fundamentals:**
+***Fundamentals***
 
 A method, or function, helps you separate your code into modules that perform a given task... You execute this code by calling the Method. In C# a method consists of a few things.
 
@@ -60,7 +60,7 @@ Declaring Methods - In the C# language, a method can be declared only between th
 
 ![Declaring Methods](../images/methodsEx1.png "Declaring Methods")
 
-**Access Modifiers:**
+***Access Modifiers***
 
 In C# there are four access modifiers: public, private, protected and internal. The access modifiers can be used only in front of the following elements of the class: class declaration, fields, properties and methods.
 
@@ -78,7 +78,7 @@ The return statement terminates the execution of the method in which it appears 
 
 Both of these are actually shown below, in each individual method.
 
-**Return Types**
+**Return Types:**
 The return type is void. You can think of void as similar to null. It's a keyword that represents the absence of a return type.
 
 ![Void Method](../images/methodsEx2.png "Void Method")
@@ -88,7 +88,6 @@ The return type is void. You can think of void as similar to null. It's a keywor
 ![String Method](../images/methodsEx3.png "String Method")
 
 **Paramaters:**
-
 Method declarations can define multiple parameters to work with.
 
 ![Int paramater](../images/methodsEx4.png "Int paramater")

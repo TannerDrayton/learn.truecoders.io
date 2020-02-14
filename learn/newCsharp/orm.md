@@ -15,13 +15,13 @@ Programmers would prefer to exercise their creative muscles rather than type and
 
 ## What
 
-**ORM - Object Relational Mapper:**
+***ORM - Object Relational Mapper:***
 
 An Object Relational Mapper is a software abstractor that is used to access a relational database from an object-oriented language
 
 ![ORM](../images/ormEx0.png "ORM")
 
-**Dapper:**
+***Dapper:***
 
 [dapper](https://github.com/StackExchange/Dapper) is a .NET compatible, NuGet library ORM that you can add into your project that will extend your IDbConnection interface.
 
@@ -35,19 +35,19 @@ You might notice how much code is reduced by using the Dapper implementation
 
 ![ORM](../images/ormEx1.png "ORM")
 
-**Query Method:**
+***Query Method:***
 
 The Dapper Query is designed for any database reads, like SELECT.
 
 Query returns an IEnumerable<`T`>, so a select statement will return one T for each record in the database.
 
-**Execute Method:**
+***Execute Method:***
 
 The Dapper Execute is designed for any database writes, like **INSERT, UPDATE, and DELETE.**
 
 Execute only returns the number of records affected, so it can be ignored if you aren't interested in the affected records.
 
-**Moreover:**
+***Moreover:***
 
 The Dapper framework actually extends the **IDbConnection** interface available under the System.Data namespace. It has many extension methods for data access and mapping the result to a C# type (domain objects) defined under the SqlMapper class found under Dapper namespace. So, in order to use Dapper, first we need to declare an IDbConnection object and initialize it to a SqlConnection to connect the database.
 
@@ -55,17 +55,17 @@ The Dapper framework actually extends the **IDbConnection** interface available 
 
 ## How
 
-Add the Dapper Nugget package:
+* Add the Dapper Nugget package
 
 ![ORM](../images/ormEx2.png "ORM")
 
-**Create a DapperDepartmentRepository:**
+* Create a DapperDepartmentRepository
 
 This Class will conform to the IDepartmentRepository interface
 
 Create **`private readonly` IDbConnection _connection;**
 
-**Configure the Constructor:**
+* Configure the Constructor
 
 ```csharp
 public class DapperDepartmentRepository : IDepartmentRepository
@@ -78,7 +78,7 @@ public class DapperDepartmentRepository : IDepartmentRepository
       }
 ```
 
-**Create GetAllDepartments Method:**
+* Create GetAllDepartments Method
 
 `Here, the conn.Query method is a Dapper method that executes our query and returns a value of type T.  T being whatever type we specify.  In our example, we will return an IEnumerable containing Department objects`
 
@@ -94,7 +94,7 @@ public IEnumerable<Department> GetAllDepartments()
 
 ![ORM](../images/ormEx2.png "ORM")
 
-**Create InsertDepartment Method:**
+* Create InsertDepartment Method
 
 `Here, the Execute method will execute a parameterized query for us.  @departmentName being the parameter in our query.  Like in previous lessons, the @departmentName value is ascertained from  the value of newDepartmentName`
 
@@ -106,7 +106,7 @@ public void InsertDepartment(string departmentName)
   }
 ```
 
-**Finished DapperDepartmentRepository:**
+* Finished DapperDepartmentRepository
 
 ```csharp
 public class DapperDepartmentRepository : IDepartmentRepository
@@ -131,13 +131,13 @@ public class DapperDepartmentRepository : IDepartmentRepository
   }
 ```
 
-**Implement in Program.cs:**
+* Implement in Program.cs
 
-**Here we can just comment out the instantiation of DepartmentRepository and implement our new instance of the DapperDepartmentRepository as seen below:**
+Here we can just comment out the instantiation of DepartmentRepository and implement our new instance of the DapperDepartmentRepository as seen below:
 
 ![ORM](../images/ormEx3.png "ORM")
 
-## OR With IoC Container
+***OR With IoC Container***
 
 ![ORM](../images/ormEx3.png "ORM")
 
@@ -149,7 +149,7 @@ public class DapperDepartmentRepository : IDepartmentRepository
 
 ## Exercise
 
-**Open your BestBuyBestPractices application.  Taking what we’ve learned in class, implement Dapper inside this application.**
+**Open your BestBuyBestPractices application. Taking what we’ve learned in class, implement Dapper inside this application.**
 
 * Add the Dapper Nuget package
 

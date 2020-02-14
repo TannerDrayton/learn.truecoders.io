@@ -15,7 +15,7 @@ Not all operators require two operands. Those that do are called **binary operat
 
 ## What/How
 
-**Arithmetic Operator:**
+***Arithmetic Operator:***
 
 These are used to perform arithmetic/mathematical operations on operands. The Binary Operators falling in this category are :
 
@@ -92,7 +92,7 @@ Console.WriteLine(a--);
 * **NOT:** The ‘!’ operator returns true the condition in consideration is not satisfied. Otherwise, it returns false. For example, !a returns true if a is false.
 
 ---
-***Assignment Operators***
+***Assignment Operators:***
 
 **Assignment operators**  are used to assigning a value to a variable. The left side operand of the assignment operator is a variable and the right side operand of the assignment operator is a value. The value on the right side must be of the same data-type of the variable on the left side otherwise the compiler will raise an error.
 
@@ -141,7 +141,7 @@ a = 8 b = 6
 ```
 
 ---
-***Ternary Operator***
+***Ternary Operator:***
 
 The **ternary operator** ,also known as the Inline-if and is syntax sugar,is a shorthand version of if-else statement. The word ternary means composed of three parts, so it makes sense that this operator has three operands. It will return one of two values depending on the value of a Boolean expression.
 

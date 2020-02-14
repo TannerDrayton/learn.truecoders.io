@@ -13,7 +13,7 @@ We teach Value and Reference types because C# is a strongly and statically typed
 
 ## What
 
-**Value Types:**
+***Value Types:***
 Stored in memory in a location called the stack.
 
 1. bool
@@ -28,14 +28,14 @@ Stored in memory in a location called the stack.
 
 example) int? myInteger = null;
 
-**Signed vs Unsigned:**
+***Signed vs Unsigned:***
 
 * **Signed:** A signed integer is one with either a plus or minus sign  
 in front. That is it can be either positive or negative.
 
 * **Unsigned:** integer is assumed to be positive.
 
-**Reference Types:**
+***Reference Types:***
 
 * String
 * Array
@@ -117,7 +117,7 @@ Notice in the above code that p1 and p2 are two references that point to the sam
 
 ## Exercise
 
-**The following assignment is a console application:**
+***The following assignment is a console application:***
 
 **Fork the exercise <https://github.com/mvdoyle/ChristmasWithTypes>  and complete each ***TODO*** in the project - This will remove the errors currently residing in the project.  In this exercise you will get some experience with reference and value types, enums, arrays, strings, and making value types nullable.  To complete this assignment, your console should output something like this:**
 

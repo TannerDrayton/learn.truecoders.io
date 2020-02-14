@@ -53,7 +53,7 @@ Consists of tiny testable parts of a program independently tested for expected f
 
 ---
 
-**Red, Green, Refactor Process:**
+***Red, Green, Refactor Process***
 
 Here is the process we follow when writing Unit Tests:
 
@@ -71,7 +71,7 @@ xUnit - A unit testing tool for the .NET Framework that we will be using in this
 
 ---
 
-**xUnit syntax:**
+***xUnit syntax:***
 
 `[Fact]`
 
@@ -89,7 +89,7 @@ In contrast, the `[Theory]` attribute denotes a parameterized test that is true 
 
 ## How
 
-***Let’s say I want to write a function that calculates how much an employee makes per hour given their annual salary amount.***
+**Let’s say I want to write a function that calculates how much an employee makes per hour given their annual salary amount.**
 
 First, I would write my unit test - which would fail -RED-  because I need to write the code for my function before it can pass
 
@@ -101,7 +101,7 @@ Finally, I could refactor my code for refinement
 
 ## Exercise
 
-* ***Lets create a Unit Test for a method that tells us if a word is a Palindrome.  In our unit test we will need to Arrange, Act, and Assert and follow the Red, Green, Refactor process***
+* **Lets create a Unit Test for a method that tells us if a word is a Palindrome.  In our unit test we will need to Arrange, Act, and Assert and follow the Red, Green, Refactor process**
 
   * We will create a new .NET Core Console application and add a xUnit project to the application
 

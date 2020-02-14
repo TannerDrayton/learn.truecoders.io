@@ -26,7 +26,7 @@ There is some overhead with throwing and catching exceptions, so just like the n
 
 A try block without a catch or finally block will throw a compiler error
 
-***Catch Blocks:***
+***Catch Blocks***
 
 * A catch block can specify the type of exception to catch. The type specification is called an exception filter. The exception type should be derived from Exception.
 
@@ -34,7 +34,7 @@ A try block without a catch or finally block will throw a compiler error
 
 * Multiple catch blocks with different exception filters can be chained together. The catch blocks are evaluated from top to bottom in your code, but only one catch block is executed for each exception that is thrown. The first catch block that specifies the exact type or a base class of the thrown exception is executed. If no catch block specifies a matching exception filter, a catch block that does not have a filter is selected, if one is present in the statement. It is important to position catch blocks with the most specific (that is, the most derived) exception types first.
 
-***You should catch exceptions when the following conditions are true:***
+**You should catch exceptions when the following conditions are true:**
 
 * You have a good understanding of why the exception might be thrown, and you can implement a specific recovery, such as prompting the user to enter a new file name when you catch a FileNotFoundException object.
 

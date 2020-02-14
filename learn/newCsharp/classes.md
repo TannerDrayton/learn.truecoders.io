@@ -29,7 +29,7 @@ Examples of class members are: (members belong to the class like a club has memb
 
 The way we access the methods and properties of a class is with the ( . ) **Dot** operator, Dot Notation, or Class Member Access Operator. They are all names for the same thing.
 
-**Parts of a class:**
+***Parts of a class***
 
 1. Class keyword - **REQUIRED**
 
